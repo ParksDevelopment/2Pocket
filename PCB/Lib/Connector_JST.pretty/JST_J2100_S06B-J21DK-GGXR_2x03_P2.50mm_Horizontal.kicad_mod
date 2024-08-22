@@ -1,0 +1,336 @@
+(footprint "JST_J2100_S06B-J21DK-GGXR_2x03_P2.50mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "JST J2100 series connector, S06B-J21DK-GGXR (http://www.jst-mfg.com/product/pdf/eng/eJFA-J2000.pdf), generated with kicad-footprint-generator")
+	(tags "connector JST J2100 horizontal")
+	(property "Reference" "REF**"
+		(at 2.5 -4.55 0)
+		(layer "F.SilkS")
+		(uuid "fe7d2d6e-64ad-415d-b51e-44a7a8d0a435")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_J2100_S06B-J21DK-GGXR_2x03_P2.50mm_Horizontal"
+		(at 2.5 15.88 0)
+		(layer "F.Fab")
+		(uuid "3dac3d7f-3429-4623-8099-2323c7f3c79c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc1579b9-780b-4260-a146-0df0ace5b179")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0abeabc5-9492-40ef-ba08-900c15e0d635")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbda419e-7da3-4720-8939-b9f33c7062ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.6 -0.3)
+		(end -3 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a79f030b-fdd9-49d2-80c9-45addeaafc72")
+	)
+	(fp_line
+		(start -3.6 0.3)
+		(end -3.6 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b353650f-89d1-469c-adaf-bb874ef35e4e")
+	)
+	(fp_line
+		(start -3 0)
+		(end -3.6 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbf0aed7-5afb-4182-af73-9329a8df1f04")
+	)
+	(fp_line
+		(start -2.71 -3.23)
+		(end -2.71 14.79)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02b17f21-fdcd-4175-a66d-9aae6edddda8")
+	)
+	(fp_line
+		(start -2.71 14.79)
+		(end 2.5 14.79)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "226310d6-e1d9-41c0-8a3b-5faee0f12abb")
+	)
+	(fp_line
+		(start -1 -3.23)
+		(end -2.71 -3.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e592888f-462d-467b-be07-19a5b7da15c1")
+	)
+	(fp_line
+		(start 6 -3.23)
+		(end 7.71 -3.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f50572eb-f917-4fb6-85a1-d1808a0b1cfd")
+	)
+	(fp_line
+		(start 7.71 -3.23)
+		(end 7.71 14.79)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2adb1800-d653-4c0d-822e-fbfa3ebbc446")
+	)
+	(fp_line
+		(start 7.71 14.79)
+		(end 2.5 14.79)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9b578c5-a48c-4b40-8a66-8da4f3be7a7a")
+	)
+	(fp_line
+		(start -3.1 -3.85)
+		(end -3.1 15.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95df4b86-acdb-4498-9e86-23f34aa242a9")
+	)
+	(fp_line
+		(start -3.1 15.18)
+		(end 8.1 15.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80507e8d-4b2c-4024-8fae-1ac3ecc11430")
+	)
+	(fp_line
+		(start 8.1 -3.85)
+		(end -3.1 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04b17a95-59ce-4e52-b7fc-db7d94209b58")
+	)
+	(fp_line
+		(start 8.1 15.18)
+		(end 8.1 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48516fb2-588e-49a0-9986-4cdd0814ea48")
+	)
+	(fp_line
+		(start -2.6 -3.12)
+		(end -2.6 14.68)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47ad962e-5d72-436b-beff-738ba0eb1d80")
+	)
+	(fp_line
+		(start -2.6 0.5)
+		(end -1.892893 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74583280-f3a2-4927-9d1a-c5469d745828")
+	)
+	(fp_line
+		(start -2.6 14.68)
+		(end 7.6 14.68)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "549b9e6f-0279-4a28-ac86-ce60ac97f61e")
+	)
+	(fp_line
+		(start -1.892893 0)
+		(end -2.6 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdc898d0-59c8-4eae-9ed3-24f925783e19")
+	)
+	(fp_line
+		(start 7.6 -3.12)
+		(end -2.6 -3.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2188f6b0-a6d6-427f-9fde-a48cda1cc2d1")
+	)
+	(fp_line
+		(start 7.6 14.68)
+		(end 7.6 -3.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c61dbdf-03a3-4484-8b00-788f3e3038b3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 5.78 0)
+		(layer "F.Fab")
+		(uuid "d6c71c51-a11a-4dda-b95b-02535ac7b148")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 2.5 7)
+		(size 3.4 3.4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49154aca-d715-416b-acfc-292d492bf13f")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.147059)
+		(uuid "a1b24434-1d41-43c7-80f8-166159f08f20")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.7 1.7)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66ae0c2d-5108-45b0-9cbf-895b5de58b3e")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 1.7 1.7)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d26c22ca-d091-4619-91ec-d49ec226a2d5")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -2.5)
+		(size 1.7 1.7)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9abbef8a-677a-47c8-9add-c38699dfd248")
+	)
+	(pad "5" thru_hole circle
+		(at 2.5 -2.5)
+		(size 1.7 1.7)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a703ab61-dcd3-480f-b268-9d3a4dd9eb3b")
+	)
+	(pad "6" thru_hole circle
+		(at 5 -2.5)
+		(size 1.7 1.7)
+		(drill 0.86)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6283fcbe-976f-4db3-ad48-236910d2a990")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_J2100_S06B-J21DK-GGXR_2x03_P2.50mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

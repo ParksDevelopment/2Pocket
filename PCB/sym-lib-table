@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Seeeduino XIAO")(type "Legacy")(uri "${KIPRJMOD}/Lib/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+  (lib (name "reversible-kicad-symbols")(type "Legacy")(uri "${KIPRJMOD}/Lib/reversible-kicad-master/reversible-kicad-symbols.lib")(options "")(descr ""))
+  (lib (name "MX_Alps_Hybrid")(type "Legacy")(uri "${KIPRJMOD}/Lib/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/Lib/Misc/keebio.lib")(options "")(descr ""))
+  (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/Lib/OPL_Kicad_Library/Seeed Studio XIAO Series Library/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+)

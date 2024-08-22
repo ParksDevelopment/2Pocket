@@ -1,0 +1,267 @@
+(footprint "JST_SFH_SM02B-SFHRS-TF_1x02-1MP_P4.20mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "JST SFH series connector, SM02B-SFHRS-TF (http://www.jst-mfg.com/product/pdf/eng/eSFH.pdf), generated with kicad-footprint-generator")
+	(tags "connector JST SFH horizontal")
+	(property "Reference" "REF**"
+		(at 0 -4.42 0)
+		(layer "F.SilkS")
+		(uuid "a97a6499-3a04-46b4-a397-1164128a57d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_SFH_SM02B-SFHRS-TF_1x02-1MP_P4.20mm_Horizontal"
+		(at 0 4.42 0)
+		(layer "F.Fab")
+		(uuid "1a52858e-51d3-4cec-8ac2-e371defbce30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94bd82ad-13bd-4f2e-84db-2432e3b70d20")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b73a47dd-3909-492d-8131-b97fd6a14abf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0800212-0321-4067-80e7-da2c347ce301")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.71 -1.165)
+		(end -2.71 1.215)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ac3e222-fc64-40dd-ac08-57f3829acba0")
+	)
+	(fp_line
+		(start -1.515 3.135)
+		(end 1.515 3.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab916a6e-9b82-4c57-9230-8fa5607d4ba4")
+	)
+	(fp_line
+		(start -1.315 -2.985)
+		(end 1.315 -2.985)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfaea82e-d528-4135-a11b-98e38716160e")
+	)
+	(fp_line
+		(start 2.71 -1.165)
+		(end 2.71 1.215)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "170b4aa0-6248-456a-951c-c0fcf54e64c7")
+	)
+	(fp_line
+		(start -3.12 -3.72)
+		(end -3.12 3.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91d07fe7-9263-404f-b817-3bbb7dd217de")
+	)
+	(fp_line
+		(start -3.12 3.72)
+		(end 3.12 3.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfe2c737-aa9b-4442-90b1-26f8c6597d9f")
+	)
+	(fp_line
+		(start 3.12 -3.72)
+		(end -3.12 -3.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e6b991b-a302-41db-8b55-eb003916535e")
+	)
+	(fp_line
+		(start 3.12 3.72)
+		(end 3.12 -3.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "754a533f-0ba2-4151-9fa8-bee2535889b9")
+	)
+	(fp_line
+		(start -2.6 -2.875)
+		(end -2.6 3.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffb320b5-27c4-41d9-84b9-c73a2ca6f264")
+	)
+	(fp_line
+		(start -2.6 -2.875)
+		(end 2.6 -2.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b4570fb-9b23-4b4c-a1b7-ac327cfbdcfc")
+	)
+	(fp_line
+		(start -2.6 3.025)
+		(end 2.6 3.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd47766a-e0dd-460b-a0e4-942a6c8bf3d7")
+	)
+	(fp_line
+		(start -2.35 -4.073553)
+		(end -2.1 -3.72)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73a2029c-ea5e-4e62-a86b-bcac9e105809")
+	)
+	(fp_line
+		(start -2.1 -3.72)
+		(end -1.85 -4.073553)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0059142e-2d69-4376-8bb3-c7d6f83c751e")
+	)
+	(fp_line
+		(start -1.85 -4.073553)
+		(end -2.35 -4.073553)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31c15c5d-afcd-4a68-8d55-7967bd4fedb7")
+	)
+	(fp_line
+		(start 2.6 -2.875)
+		(end 2.6 3.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8686b774-6541-4df3-9149-282631351de2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.5 0)
+		(layer "F.Fab")
+		(uuid "d53658b3-f218-446c-a3aa-4364ca767175")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.1 -2.325)
+		(size 1.05 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.238095)
+		(uuid "d255e924-223d-4a7e-88c6-f734c9d47a69")
+	)
+	(pad "2" smd roundrect
+		(at 2.1 -2.325)
+		(size 1.05 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.238095)
+		(uuid "42b1cff0-c4b2-41ef-879a-85cac921ef25")
+	)
+	(pad "MP" smd roundrect
+		(at -2.2 2.35)
+		(size 0.85 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "942a0f11-a27b-43bd-a5b4-98e0da5422ab")
+	)
+	(pad "MP" smd roundrect
+		(at 2.2 2.35)
+		(size 0.85 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "4dbd191e-a232-4aec-8757-3be7f66dd34b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SFH_SM02B-SFHRS-TF_1x02-1MP_P4.20mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

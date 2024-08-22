@@ -1,0 +1,318 @@
+(footprint "JST_ZE_SM05B-ZESS-TB_1x05-1MP_P1.50mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "JST ZE series connector, SM05B-ZESS-TB (http://www.jst-mfg.com/product/pdf/eng/eZE.pdf), generated with kicad-footprint-generator")
+	(tags "connector JST ZE horizontal")
+	(property "Reference" "REF**"
+		(at 0 -5.22 0)
+		(layer "F.SilkS")
+		(uuid "bbf326d7-5040-4a1a-901a-4c3823398418")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_ZE_SM05B-ZESS-TB_1x05-1MP_P1.50mm_Horizontal"
+		(at 0 6.68 0)
+		(layer "F.Fab")
+		(uuid "54779c80-7dfa-4163-8131-f906434063ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe4fe447-cc56-459d-9aa8-8b7016d02f91")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3ddfffe-125d-462c-b5b7-fa1371f58de9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9be1da68-ce01-4031-a3b7-08b20dc9c903")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.11 -2.135)
+		(end -3.66 -2.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4ab25ee-9316-4ff4-821f-d2301fdd12b5")
+	)
+	(fp_line
+		(start -6.11 -0.035)
+		(end -6.11 -2.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0bf3ecd1-7414-4661-975a-d7969f30120a")
+	)
+	(fp_line
+		(start -6.11 4.285)
+		(end -6.11 5.585)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "879d22e3-1230-46d2-9ee6-76db960e10a8")
+	)
+	(fp_line
+		(start -6.11 5.585)
+		(end 6.11 5.585)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "710914a7-4fea-47e2-8033-422f8e57e65a")
+	)
+	(fp_line
+		(start -3.66 -2.135)
+		(end -3.66 -4.025)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7aba2250-d637-40ab-b28e-51c0bd70c3b0")
+	)
+	(fp_line
+		(start 6.11 -2.135)
+		(end 3.66 -2.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23924359-6fce-4f9c-a2b3-c0da0f4f9ae0")
+	)
+	(fp_line
+		(start 6.11 -0.035)
+		(end 6.11 -2.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b138974-497f-4035-affd-ba4a49706353")
+	)
+	(fp_line
+		(start 6.11 5.585)
+		(end 6.11 4.285)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4a86f51-95fd-4894-bb57-9a63a04a916d")
+	)
+	(fp_line
+		(start -7 -4.52)
+		(end -7 5.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef93eb3d-efe1-4f0a-9dac-6474654b0cfb")
+	)
+	(fp_line
+		(start -7 5.98)
+		(end 7 5.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23052afd-7e14-4d0b-bdc7-36bc4510ffee")
+	)
+	(fp_line
+		(start 7 -4.52)
+		(end -7 -4.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e62a759-a15d-4b1c-b402-5748944cd2b6")
+	)
+	(fp_line
+		(start 7 5.98)
+		(end 7 -4.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2571cc9b-ca40-48de-af13-20faaf9c0d1c")
+	)
+	(fp_line
+		(start -6 -2.025)
+		(end -6 5.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "214db996-a23a-4868-91f3-8585342d9955")
+	)
+	(fp_line
+		(start -6 -2.025)
+		(end 6 -2.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8acd44a6-ed50-4852-aead-267872e215ac")
+	)
+	(fp_line
+		(start -6 5.475)
+		(end 6 5.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac6f9a43-b8c5-4265-b405-3b03eb37f9a2")
+	)
+	(fp_line
+		(start -3.5 -2.025)
+		(end -3 -1.317893)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6df021e6-07c8-42d1-b81d-82241a3fe509")
+	)
+	(fp_line
+		(start -3 -1.317893)
+		(end -2.5 -2.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89864cbb-52a0-4dfe-afb0-796e18f03da8")
+	)
+	(fp_line
+		(start 6 -2.025)
+		(end 6 5.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82ec8d0c-3b0e-401b-9390-e12f06312f4a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a832c219-3d10-4ad2-b1a8-2f368a04f389")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3 -2.575)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "50f46bf3-ff8f-4a66-95e2-b355a67a5441")
+	)
+	(pad "2" smd roundrect
+		(at -1.5 -2.575)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a37bbbc1-9ef4-482f-827c-da083fbf0d7f")
+	)
+	(pad "3" smd roundrect
+		(at 0 -2.575)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c183f0ac-a88d-48ff-8d53-1042d878ffd9")
+	)
+	(pad "4" smd roundrect
+		(at 1.5 -2.575)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "41adbfcb-0561-4211-907e-103cf66e2cec")
+	)
+	(pad "5" smd roundrect
+		(at 3 -2.575)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d7727fc5-5d11-4249-90c6-6a182c3bc2df")
+	)
+	(pad "MP" smd roundrect
+		(at -5.6 2.125)
+		(size 1.8 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.138889)
+		(uuid "31c6565e-a9a7-4732-9283-9df98c2f399f")
+	)
+	(pad "MP" smd roundrect
+		(at 5.6 2.125)
+		(size 1.8 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.138889)
+		(uuid "1e275fe1-b5fd-48d9-8ee7-821d74314735")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_ZE_SM05B-ZESS-TB_1x05-1MP_P1.50mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

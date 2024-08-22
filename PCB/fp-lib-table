@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ADXL345")(type "KiCad")(uri "${KIPRJMOD}/Lib/ADXL345")(options "")(descr ""))
+  (lib (name "Seeed Studio XIAO Series Library")(type "KiCad")(uri "${KIPRJMOD}/Lib/OPL_Kicad_Library/Seeed Studio XIAO Series Library")(options "")(descr ""))
+)
