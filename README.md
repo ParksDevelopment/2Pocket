@@ -50,7 +50,7 @@ most of these the brand doesn't matter but the case is modeled to fit this speci
 
 The PCB has a footprint of 185mm x 71mm x 1.6mm which does not give a ton of room for the case but it is hard to scale it down much without giving up keys or making the wiring much more complicated. To order the case go to the PCB folder in this repo and then go to the production folder in there. that includes the gerber files as well as the BOM and POS files needed to order from jlcpbc. The original kicad project is there as well so if you need to regenerate the files that should be possible. the BOM will only inclued the parts I list as not soldered by hand. in addition double check the position of the ADXL345s. they should always be oriented so pin one is on the side closer to the Xiao board. Once the board is ordered just snap it in the middle and trim off any parts left over on the side. Then solder the remaining part on. 
 
-I am pretty happy with the pcb but there are 2 bi changes I would make:
+I am pretty happy with the pcb but there are 2 big changes I would make:
 
 1. I would wire the ncf pins on the xiao to the interupt pins on the adxl345. The ncf pins can act as extra gpio pins with some software changes and connecting them to the adxl345 would let me do things like shake to undo or stop any keystrokes if it detects the board has been knocked off. this stuff could still be done as is but I would need to check often and it would hurt the battery.
 2. I could include a coulple mounting holes. I got by ok without them but some holes that are purely for helping connect it to the case would open up how you can design the case quite a bit.
@@ -59,6 +59,16 @@ I am pretty happy with the pcb but there are 2 bi changes I would make:
 
 The firmware is written in KMK. To install it just follow the [getting started](https://kmkfw.io/Getting_Started/) guide on the KMK site. After getting circuit python and kmk installed you should then follow the [bluetooth guide](https://kmkfw.io/ble_hid/) just up to adding the adafruit bluetooth folder into your project. Once that is done you can go to this repo, go to firmware, go to kmk and replace your code.py with the one there then take the adxl345.py and drag it into the extensions folder. Once all that is done you can edit the keymap to your liking using KC.STEPS to print out how many steps have been taken and KC.CLEARBT to disconnect and pair to a new bluetooth device. kmk bluetooth can be finicky so if you run into issues you can ask at the [zmk help forum](https://kmkfw.zulipchat.com/#recent).
 
+There is a lot I would touch on with the firmware, like I want to flesh out the step counter to keep the number in memory between shutting off so you don't lose it if the battery dies but the number one thing I will add is zmk support. I tried to have this done for the entry date for the contest and am very close but am having trouble getting the adxl345 to interface with zmk. once that is done I will add the zmk firmware here. zmk handles bluetooth much better than kmk so that alone would be worth it. 
+
 ## Case
+
+The case is printed in 4 parts and requires a couple parts after the fact. It is pretty bare bones without a lot of bells and whistles due to only having about 5 mm to work with at most. That said it is sturdy enough to go in your pocket and has no gaps save for the usbc port to prevent dust or other things from getting into the board from your pocket. The parts needed are in the table below. I am linking to the ones I used but anything with these dimensions will work. or you can edit the case to fit something else. (I have no idea how affiliated links work but nothing I link to in this page has any affiliation with me and I don't benifit from)
+
+| Part Name  | Quantity   | Link  |
+|------------|------------|------------|
+| Magnets | 8| [Link](https://www.amazon.com/dp/B0936M3WPK?ref=ppx_yo2ov_dt_b_fed_asin_title)|
+| M3 threaded inserts| 4| [Link](https://www.amazon.com/dp/B0BQJ6CRNJ?ref=ppx_yo2ov_dt_b_fed_asin_title)|
+| M3 flat head screws. shorter the better | 4| [Link](https://www.amazon.com/HanTof-Countersunk-Machine-Wrenches-Threaded/dp/B0B9HWVV61/ref=sr_1_3?crid=2YE6H5SPZ5472&dib=eyJ2IjoiMSJ9.L2XP8pYbu5l1a4j1_K4p1_b5aZn_wUVLVydeFWkYvYM0KNiWoAemW5YQWALzPugx6cIyMimG2n-ODHc8xE6avKn96-haNyTYAsjHn3l2HFDyPZpTqDHT6j0PfscB7inJyVgQs3MDA0USRKy3BG1DaQ6cNOfekXD1PnHhHwgLRrc8n5RaUJIK_YabDUsdGXFrJoy9bHcjiw26ildZeYGJ4g01n6a7OgG01xCU7sdOgdtkfw9zkb8ot_BvuKhA_g9635XTGlkiBysZ89JSAjQQBHvJiuZJ-d6szBEDqgJjcdw.fwF4DNqeGYTvOX1p3F9zsEH2r3VcWQ9_gU5F2RgjjSw&dib_tag=se&keywords=M3%2Bflat%2Bhead%2Bscrews&qid=1725912902&s=industrial&sprefix=m3%2Bflat%2Bhead%2Bscrews%2Cindustrial%2C177&sr=1-3&th=1)|
 
 ## Overview
