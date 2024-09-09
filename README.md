@@ -12,14 +12,14 @@
 
 [Overview](#Overview)
 
-##Introduciton
+## Introduciton
 
-##PCB
+## PCB
 
-##Firmware
+## Firmware
 
-##Case
+## Case
 
-##Reproduction
+## Reproduction
 
-##Overview
+## Overview
