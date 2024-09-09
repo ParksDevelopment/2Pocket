@@ -428,7 +428,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Case/PCB_Model.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
