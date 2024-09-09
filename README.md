@@ -29,12 +29,12 @@ The idea behind the board was to create something that you can put in your pocke
 
 ## Production
 
-I will briefly explain below how to reproduce the board as well as discuss improvements I would like to make in the future on the project in each area. The production of the board is reletively simple, but will require either a 3D printer or ordering the case parts through a provider. I also chose to solder some parts and order the board with other parts soldered on. If you have a soldering station I would recommend you do the same but you can choose whatever works best for you. Below is the parts list:
+I will briefly explain below how to reproduce the board as well as discuss improvements I would like to make in the future on the project in each area. The production of the board is reletively simple, but will require either a 3D printer or ordering the case parts through a provider. I also chose to solder some parts and order the board with other parts soldered on. If you have a soldering station I would recommend you do the same but you can choose whatever works best for you. Below is the parts list which does not inclued the pcb or the case which will be discussed later:
 
 | Part Name  | Quantity   | Solder by hand   |
 |------------|------------|------------|
-| Row 1 Col 1| Row 1 Col 2| Row 1 Col 3|
-| Row 2 Col 1| Row 2 Col 2| Row 2 Col 3|
+| Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF| 4| NO|
+| Tantalum Capacitors - Solid SMD 16V 10uF| 2| Row 2 Col 3|
 
 
 ## PCB
