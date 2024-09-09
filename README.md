@@ -29,17 +29,35 @@ The idea behind the board was to create something that you can put in your pocke
 
 ## Production
 
-I will briefly explain below how to reproduce the board as well as discuss improvements I would like to make in the future on the project in each area. The production of the board is reletively simple, but will require either a 3D printer or ordering the case parts through a provider. I also chose to solder some parts and order the board with other parts soldered on. If you have a soldering station I would recommend you do the same but you can choose whatever works best for you. Below is the parts list which does not inclued the pcb or the case which will be discussed later:
+I will briefly explain below how to reproduce the board as well as discuss improvements that could be made in the future on the project in each area so. The production of the board is reletively simple, but will require either a 3D printer or ordering the case parts through a provider. I also chose to solder some parts and order the board with other parts soldered on. If you have a soldering station I would recommend you do the same but you can choose whatever works best for you. Below is the parts list which does not inclued the pcb or the case which will be discussed later:
 
 | Part Name  | Quantity   | Solder by hand   |
 |------------|------------|------------|
-| Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF| 4| NO|
-| Tantalum Capacitors - Solid SMD 16V 10uF| 2| Row 2 Col 3|
+| Ceramic Capacitors 1uF| 4| NO|
+| Tantalum Capacitors 10uF| 2| NO|
+| ADXL345 | 2| NO|
+| 1N4148 Diode | 38| NO|
+| 4.7 k oHm Resistor | 4| NO|
+| 2 pin Jst socket | 2| YES|
+| 6 mm push button switches | 2| YES|
+| Choc hotswap sockets | 36| YES|
+| Xiao NRF52840 | 2| YES|
+| EEMB Lithium Polymer Battery 3.7V 1100mAh | 2| DNA|
 
+most of these the brand doesn't matter but the case is modeled to fit this specific battery so if you would like to use a different battery you need to make some modifications.
 
 ## PCB
 
+The PCB has a footprint of 185mm x 71mm x 1.6mm which does not give a ton of room for the case but it is hard to scale it down much without giving up keys or making the wiring much more complicated. To order the case go to the PCB folder in this repo and then go to the production folder in there. that includes the gerber files as well as the BOM and POS files needed to order from jlcpbc. The original kicad project is there as well so if you need to regenerate the files that should be possible. the BOM will only inclued the parts I list as not soldered by hand. in addition double check the position of the ADXL345s. they should always be oriented so pin one is on the side closer to the Xiao board. Once the board is ordered just snap it in the middle and trim off any parts left over on the side. Then solder the remaining part on. 
+
+I am pretty happy with the pcb but there are 2 bi changes I would make:
+
+1. I would wire the ncf pins on the xiao to the interupt pins on the adxl345. The ncf pins can act as extra gpio pins with some software changes and connecting them to the adxl345 would let me do things like shake to undo or stop any keystrokes if it detects the board has been knocked off. this stuff could still be done as is but I would need to check often and it would hurt the battery.
+2. I could include a coulple mounting holes. I got by ok without them but some holes that are purely for helping connect it to the case would open up how you can design the case quite a bit.
+
 ## Firmware
+
+The firmware is written in KMK. To install it just follow the [getting started](https://kmkfw.io/Getting_Started/) guide on the KMK site. After getting circuit python and kmk installed you should then follow the [bluetooth guide](https://kmkfw.io/ble_hid/) just up to adding the adafruit bluetooth folder into your project. Once that is done you can go to this repo, go to firmware, go to kmk and replace your code.py with the one there then take the adxl345.py and drag it into the extensions folder. Once all that is done you can edit the keymap to your liking using KC.STEPS to print out how many steps have been taken and KC.CLEARBT to disconnect and pair to a new bluetooth device. kmk bluetooth can be finicky so if you run into issues you can ask at the [zmk help forum](https://kmkfw.zulipchat.com/#recent).
 
 ## Case
 
