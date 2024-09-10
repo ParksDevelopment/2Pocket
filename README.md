@@ -23,7 +23,7 @@ The 2Pocket is a pocket keyboard originally created for the [Pocket Keyboard Des
 - Pedometer using a ADXL345 for step counting
 - 2 additional 6 mm Push button switches used for bluetooth, step reporting, or any othe KMK key
 - Full open source customizeable keymap in KMK. ZMK to be included soon
-- 2 3.7V 1100 mAh batteries
+- 2 3.7V 1100 mAh batteries Charged through the USB C port on the back of each board
 - Magnetic casing to make the board unibody for preference, saving space, or travel
 - Small enough to fit in your pocket! (according to the contest which gives a 190mm x 76mm x 22mm bounding box with the 2Pocket coming in comfortably at 190mm x 74.8mm x 22mm)
 
