@@ -57,7 +57,7 @@ I am pretty happy with the pcb but there are 2 big changes I would make:
 1. I would wire the ncf pins on the xiao to the interupt pins on the adxl345. The ncf pins can act as extra gpio pins with some software changes and connecting them to the adxl345 would let me do things like shake to undo or stop any keystrokes if it detects the board has been knocked off. this stuff could still be done as is but I would need to check often and it would hurt the battery.
 2. I could include a coulple mounting holes. I got by ok without them but some holes that are purely for helping connect it to the case would open up how you can design the case quite a bit.
 
-![](https://github.com/ParksDevelopment/2Pocket/blob/main/Images/pbc.jpg)
+![](https://github.com/ParksDevelopment/2Pocket/blob/main/Images/pcb.jpg)
 
 ## Firmware
 
@@ -91,4 +91,4 @@ Overall I am very happy with the board and think it fit the criteria of the cont
 
 p.s. enjoy the [extra photos](https://photos.app.goo.gl/FVwNr18BBK3Yw1VW6) my wife took of the board on a hike
 
-![](https://github.com/ParksDevelopment/2Pocket/blob/main/Images/handComparison.jpg)
+![](https://github.com/ParksDevelopment/2Pocket/blob/main/Images/handComparison.jpeg)
