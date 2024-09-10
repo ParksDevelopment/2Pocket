@@ -1,5 +1,7 @@
 # 2Pocket
 
+![](https://github.com/ParksDevelopment/2Pocket/blob/main/Images/Cover.jpeg)
+
 [Introduction](#Introduction)
 
 [Info and Production](#Production)
