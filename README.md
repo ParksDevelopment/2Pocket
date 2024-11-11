@@ -1,5 +1,7 @@
 # 2Pocket
 
+![](https://github.com/ParksDevelopment/2Pocket/blob/main/Images/Cover.jpeg)
+
 [Introduction](#Introduction)
 
 [Info and Production](#Production)
@@ -19,9 +21,9 @@ The 2Pocket is a pocket keyboard originally created for the [Pocket Keyboard Des
 - 36 Kailh Choc V1 Low Profile Hot swap sockets (Using [Sunset](https://lowprokb.ca/collections/switches/products/sunset-tactile-choc-switches) switches for all pictures)
 - Bluetooth support between halves and computer
 - Pedometer using a ADXL345 for step counting
-- 2 additional 6 mm Push button switches used for bluetooth and additional controls controls
+- 2 additional 6 mm Push button switches used for bluetooth, step reporting, or any othe KMK key
 - Full open source customizeable keymap in KMK. ZMK to be included soon
-- 2 3.7V 1100 mAh batteries
+- 2 3.7V 1100 mAh batteries Charged through the USB C port on the back of each board
 - Magnetic casing to make the board unibody for preference, saving space, or travel
 - Small enough to fit in your pocket! (according to the contest which gives a 190mm x 76mm x 22mm bounding box with the 2Pocket coming in comfortably at 190mm x 74.8mm x 22mm)
 
@@ -55,6 +57,8 @@ I am pretty happy with the pcb but there are 2 big changes I would make:
 1. I would wire the ncf pins on the xiao to the interupt pins on the adxl345. The ncf pins can act as extra gpio pins with some software changes and connecting them to the adxl345 would let me do things like shake to undo or stop any keystrokes if it detects the board has been knocked off. this stuff could still be done as is but I would need to check often and it would hurt the battery.
 2. I could include a coulple mounting holes. I got by ok without them but some holes that are purely for helping connect it to the case would open up how you can design the case quite a bit.
 
+![](https://github.com/ParksDevelopment/2Pocket/blob/main/Images/pcb.jpg)
+
 ## Firmware
 
 The firmware is written in KMK. To install it just follow the [getting started](https://kmkfw.io/Getting_Started/) guide on the KMK site. After getting circuit python and kmk installed you should then follow the [bluetooth guide](https://kmkfw.io/ble_hid/) just up to adding the adafruit bluetooth folder into your project. Once that is done you can go to this repo, go to firmware, go to kmk and replace your code.py with the one there then take the adxl345.py and drag it into the extensions folder. Currently the keymap is Miryoku modified which used colemak DH mod. Once all that is done you can edit the keymap to your liking using KC.STEPS to print out how many steps have been taken and KC.CLEARBT to disconnect and pair to a new bluetooth device. kmk bluetooth can be finicky so if you run into issues you can ask at the [zmk help forum](https://kmkfw.zulipchat.com/#recent).
@@ -79,7 +83,12 @@ To combine everything put some keys in the top, push the pcb into the case so th
 
 The case could be improved in a lot of areas. I have very limited experience with 3D modeling so I have no doubt it can be done much better. I would probably redesign it once I have mounting holes to screw in from the bottom so I don't have to sacrifice the sides so much just to allow for a connection. This is the first part I would do a complete overhaul on but for now it works well enough, keeping the board and battery secure while staying within the bounding box, barely.
 
+![](https://github.com/ParksDevelopment/2Pocket/blob/main/Images/model.jpg)
+
 ## Overview
 
-Overall I am very happy with the board and think it fit the criteria of the contest while being a practical board for me to use. The extra gimmick of acting as a pedometer only adds to the charm and my enjoyment of bringing it out of the house. I am excited to keep interating on it in the future but know the board as it stands is fully functional and will be used as my daily driver for a couple weeks to prove that. I also want to thank Chris Lo aka sporewoh for putting on the contest. It was very fun to design the project fitting into a certain critera and being pushed to add gimmicks and functionality into such small size.
+Overall I am very happy with the board and think it fit the criteria of the contest while being a practical board for me to use. The extra gimmick of acting as a pedometer only adds to the charm and my enjoyment of bringing it out of the house. I am excited to keep interating on it in the future but know the board as it stands is fully functional and will be used as my daily driver for a couple days to prove that. I also want to thank Chris Lo aka sporewoh for putting on the contest. It was very fun to design the project fitting into a certain critera and being pushed to add gimmicks and functionality into such small size.
 
+p.s. enjoy the [extra photos](https://photos.app.goo.gl/FVwNr18BBK3Yw1VW6) my wife took of the board on a hike
+
+![](https://github.com/ParksDevelopment/2Pocket/blob/main/Images/handComparison.jpeg)
