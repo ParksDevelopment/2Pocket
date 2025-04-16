@@ -89,6 +89,8 @@ The case could be improved in a lot of areas. I have very limited experience wit
 
 Overall I am very happy with the board and think it fit the criteria of the contest while being a practical board for me to use. The extra gimmick of acting as a pedometer only adds to the charm and my enjoyment of bringing it out of the house. I am excited to keep interating on it in the future but know the board as it stands is fully functional and will be used as my daily driver for a couple days to prove that. I also want to thank Chris Lo aka sporewoh for putting on the contest. It was very fun to design the project fitting into a certain critera and being pushed to add gimmicks and functionality into such small size.
 
+If you enjoyed or found and of the information helpful consider [Buying me a coffee](https://buymeacoffee.com/parks) to keep working on projects like this!
+
 p.s. enjoy the [extra photos](https://photos.app.goo.gl/FVwNr18BBK3Yw1VW6) my wife took of the board on a hike
 
 ![](https://github.com/ParksDevelopment/2Pocket/blob/main/Images/handComparison.jpeg)
